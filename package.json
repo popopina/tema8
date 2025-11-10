@@ -1,0 +1,25 @@
+{
+  "name": "evaluacion",
+  "version": "1.0.0",
+  "description": "Proyecto de evaluación de Node.js con Express y Mongoose.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "nodemon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
