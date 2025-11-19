@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Importar el router de dispositivos API
 const deviceRouter = require('./routes/devices');
-
+      
 // URL de conexión a MongoDB (ajusta esto a tu entorno)
 const MONGO_URI = 'mongodb://localhost:27017/evaluacionDB';
 
